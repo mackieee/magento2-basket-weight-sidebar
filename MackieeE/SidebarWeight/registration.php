@@ -6,5 +6,5 @@
 	\Magento\Framework\Component\ComponentRegistrar::MODULE,
 	'MackieeE/SidebarWeight',
 	__DIR__
-	);
+);
 ?>
