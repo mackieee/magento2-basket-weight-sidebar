@@ -10,10 +10,11 @@ This may vary in display depending on your Design template.
 
 Unzip the MackieeE Vendor folder into your "app" folder.
 
-> /app/MackieeE/SidebarWeight/
+> /app/code/MackieeE/SidebarWeight/
 
-Then run the magento cli command:
+Then run the magento cli commands:
 
+`php bin/magento cache:flush`
 `php bin/magento setup:upgrade`
 
 If you're not in development mode, you'll need to clear your cache. 
