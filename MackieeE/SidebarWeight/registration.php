@@ -4,7 +4,7 @@
  */ 
 \Magento\Framework\Component\ComponentRegistrar::register(
 	\Magento\Framework\Component\ComponentRegistrar::MODULE,
-	'MackieeE/SidebarWeight',
+	'MackieeE_SidebarWeight',
 	__DIR__
 );
 ?>

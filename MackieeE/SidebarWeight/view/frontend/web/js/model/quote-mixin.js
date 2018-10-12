@@ -27,10 +27,13 @@ define([], function() {
 	    	 
 	     	var total = 0.; 
 	     	_.each(this.getItems(), function( item ){
-	     		total += parseFloat( item.weight );
+                if ( typeof item.weight != null )
+                {
+	     		    total += parseFloat( item.weight );
+                }
 	     	});
 	     	
-	     	return total.toFixed( 2 );
+	     	return total.toFixed( 2 ) || 0;
 	     }
 	     
 	     /*
