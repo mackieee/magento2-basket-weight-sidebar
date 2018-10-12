@@ -1,8 +1,7 @@
 # Basket Weight in Checkout Sidebar for Magento 2
 
-Simple little display of the **total** Basket weight in Magento.
-
-This may vary in display depending on your Design template. 
+A graceful little addition of the **total** Basket weight in at Magento 2 Checkout. Facilitated with Magento's Mixins. 
+This is based of the Luma theme for the Native mini-cart display - so with custom themes your so milage may vary :)
 
 ![Example Picture](https://user-images.githubusercontent.com/883702/37090508-925ff33a-21fc-11e8-9295-5abfdecea7d4.jpg)
 
@@ -12,9 +11,6 @@ Unzip the MackieeE Vendor folder into your "app" folder.
 
 > /app/code/MackieeE/SidebarWeight/
 
-Then run the magento cli commands:
+Then run the Magento Upgrade command:
 
-`php bin/magento cache:flush`
 `php bin/magento setup:upgrade`
-
-If you're not in development mode, you'll need to clear your cache. 
